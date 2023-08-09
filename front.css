@@ -223,6 +223,8 @@ footer{
     
 }
 
+
+/*for mobile*/
 @media only screen and (max-width:600px) {
     .name{
         top:50px;
@@ -301,7 +303,6 @@ footer{
         padding: 1rem 0rem;
     }
     .title-link a{
-        text-decoration: 1px underline #E0C741;
         font-size: 8px;
         letter-spacing: 2px;
         line-height: 11px;
@@ -314,10 +315,8 @@ footer{
         top: -15px;
     }
     .col{
-        position: relative;
         left: 190px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 12px;
+              font-size: 12px;
     }
 }
 
