@@ -220,7 +220,7 @@ footer{
     bottom:-5px;
     
 }
-@media only screen and (min-width:1440px) {
+@media only screen and (max-width:1440px) {
     .cross{
         top: 340px;
         left: 110px;
@@ -342,40 +342,43 @@ footer{
     }
 }
 @media only screen and (max-width:786px) {
+    .front-img > div {
+        position: relative;
+        height: 680px!important;
+    }
     .front-img img {
-        left: 50%;
-        max-width: 450px;
+        left: 46%;
+        max-width: 400px;
     }
     .cross {
-        top: 374px;
-        left: 137px;
+        top: 255px;
+        left: 182px;
     }
     .arrow1 {
         width: 250px;
         height: 10px;
         border-top: 10PX solid black;
-        top: 413px;
-        left: 266px;
+        top: 316px;
+        left: 254px;
     }
     .arrow2 {
-        width: 283px;
+        width: 302px;
         height: 1px;
         border-top: 5PX solid black;
-        top: 405px;
-        left: 304px
-    
+        top: 305px;
+        left: 276px;
     }
     .circle1 {
         height: 250px;
         width: 250px;
-        left: 30px;
-        top: 605px;
+        left: 85px;
+        top: 400px;
     }
     .circle2 {
         height: 140px;
         width: 140px;
-        top: 434px;
-        left: 404px;
+        top: 305px;
+        left: 410px;
     }
     .main{
         flex-direction: column;
@@ -387,11 +390,10 @@ footer{
          display: flex;
         flex-direction: column; 
     }
-    .front-img > div{
-        position: relative;
-        height: 900px;
-    }
     
+    .col2 {
+        left: 600px!important;
+    }
 }
 /*for mobile*/
 @media only screen and (max-width:425px) {
