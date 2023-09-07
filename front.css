@@ -220,7 +220,7 @@ footer{
     bottom:-5px;
     
 }
-@media only screen and (max-width:1440px) {
+@media only screen and (min-width:1440px) {
     .cross{
         top: 340px;
         left: 110px;
@@ -264,7 +264,13 @@ footer{
 }
 
 @media only screen and (max-width:1024px) {
-   
+    .front-background {
+        background-color: #D6D6D6;
+        padding: 1rem 1rem;
+        width: 100%;
+        height: auto;
+        max-width: 1920px;
+    }
     .name {
         position: absolute;
         padding: 1rem 2rem;
@@ -280,20 +286,20 @@ footer{
         margin: 0 1.5rem;
     }
     .cross {
-        top: 333px;
-        left: 70px;
+        top: 317px;
+        left: 73px;
     }
     .arrow1 {
-        width: 250px;
+        width: 273px;
         height: 10px;
-        top: 399px;
+        top: 386px;
         left: 130px;
     }
     .arrow2 {
         width: 287px;
         height: 1px;
-        top: 408px;
-        left: 144px;
+        top: 376px;
+        left: 173px;
     }
     .circle1 {
         height: 250px;
@@ -304,8 +310,8 @@ footer{
     .circle2 {
         height: 115px;
         width: 115px;
-        top: 373px;
-        left: 304px;
+        top: 352px;
+        left: 329px;
     }
     .title h1 {
         font-family: 'Inter', sans-serif;
@@ -328,7 +334,12 @@ footer{
         padding: 2rem 0rem;
         width: 70%;
     }
-    
+    .col2 img{
+        height: 143px;
+    }
+    .col2 {
+        left: 487px;
+    }
 }
 @media only screen and (max-width:786px) {
     .front-img img {
