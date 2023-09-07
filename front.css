@@ -265,68 +265,68 @@ footer{
 
 @media only screen and (max-width:1024px) {
    
-    .main{
-        flex-direction: column;
-        flex-wrap: wrap;
-        
+    .name {
+        position: absolute;
+        padding: 1rem 2rem;
+        float: left;
+        color: #333333;
+        z-index: 999;
+        left: -10px;
     }
-    .content{
-        flex: 1 1 0%;
-         display: flex;
-        flex-direction: column;
-        
-        
+    .front-img img {
+        left: 56%;
+        max-width: 450px;
     }
-    .front-img > div{
-        position: relative;
-        height: 900px;
+    .cross {
+        top: 320px;
+        left: 65px;
     }
-    .cross{
-        top: 350px;
-        left: 200px;
+    .arrow1 {
+        width: 250px;
+        height: 10px;
+        top: 370px;
+        left: 130px;
+    }
+    .arrow2 {
+        width: 307px;
+        height: 1px;
+        top: 380px;
+        left: 127px;
     }
     .circle1 {
-        
-        height: 300px;
-        width: 300px;
-        top:540px;
-        left: 100px;
-        
-    
-    }
-    
-    .circle2{
-        
-        height: 140px;
-        width: 140px;
-        top: 400px;
-        left: 550px;
-    
-    }
-    .arrow1{
-        
+        height: 250px;
         width: 250px;
-        height:10px;
-       top: 370px;
-       left: 400px;
-       
+        top: 514px;
+        left: 4px;
     }
-    .arrow2{
-        
-        
-        width: 350px;
-        height: 1px;
-       top: 380px;
-       left: 400px;
+    .circle2 {
+        height: 115px;
+        width: 115px;
+        top: 351px;
+        left: 310px;
     }
-    .col{
-        left: 0px;
+    .title h1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 60.2px;
+        letter-spacing: 13.44 px;
+        color: #333333;
     }
-    .col2{
-        flex: unset;
-        right: 0;
-        
+    .col1 a {
+        position: relative;
+        margin: 0px 10px;
+        font-size: 20px;
+        color: #333333;
+        left: 125px;
+        top: -20px;
     }
+    .title p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 28.8px;
+        padding: 2rem 0rem;
+        width: 70%;
+    }
+    
 }
 @media only screen and (max-width:786px) {
    
@@ -397,7 +397,7 @@ footer{
     }
 }
 /*for mobile*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:425px) {
    
     .name a{
         
@@ -493,12 +493,4 @@ footer{
               font-size: 12px;
     }
 }
-@media only screen and (max-width:425px) {
-    .arrow2{
-        width:220px;
-        height: 1px;
-        top: 240px;
-       left:80px;
-       
-    }
-}
+
