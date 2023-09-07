@@ -329,40 +329,39 @@ footer{
     
 }
 @media only screen and (max-width:786px) {
-   
+    .front-img img {
+        left: 50%;
+        max-width: 450px;
+    }
+    .cross {
+        top: 374px;
+        left: 137px;
+    }
+    .arrow1 {
+        width: 250px;
+        height: 10px;
+        border-top: 10PX solid black;
+        top: 413px;
+        left: 266px;
+    }
+    .arrow2 {
+        width: 285px;
+        height: 1px;
+        border-top: 5PX solid black;
+        top: 405px;
+        left: 290px;
+    }
     .circle1 {
-        
         height: 250px;
         width: 250px;
-        top:600px;
         left: 30px;
-    
+        top: 605px;
     }
-    .circle2{
-       
+    .circle2 {
         height: 140px;
         width: 140px;
-        top: 400px;
-        left: 400px;
-        
-    
-    }
-    .arrow1{
-        
-        width: 200px;
-        height:10px;
-        border-top: 10PX solid black;
-       top: 380px;
-       left: 300px;
-    }
-    .arrow2{
-        
-        
-        width: 300px;
-        height: 1px;
-       border-top: 5PX solid black;
-       top: 370px;
-       left: 300px;
+        top: 426px;
+        left: 404px;
     }
     .main{
         flex-direction: column;
@@ -372,33 +371,60 @@ footer{
     .content{
         flex: 1 1 0%;
          display: flex;
-        flex-direction: column;
-        
-        
+        flex-direction: column; 
     }
     .front-img > div{
         position: relative;
         height: 900px;
-        
     }
-    .cross{
-        top: 350px;
-        left: 100px;
-    }
-    .col{
-        left: 0px;
-    }
-    .col2{
-        left: 600px
-        
-    }
-    .col2 img{
-        height: 180px;
-    }
+    
 }
 /*for mobile*/
 @media only screen and (max-width:425px) {
-   
+    .front-img img {
+        padding: 2rem;
+        top: 50px;
+    }
+    .cross {
+        top: 182px;
+        left: 67px;
+        font-size: 1.5rem;
+    }
+    .arrow1 {
+        width: 180px;
+        height: 2px;
+        top: 235px;
+        left: 80px;
+        border-top: 5PX solid black;
+    }
+    .arrow2 {
+        width: 216px;
+        height: 1px;
+        top: 239px;
+        left: 81px;
+        border-top: 3PX solid black;
+    }
+    .circle1 {
+        height: 150px;
+        width: 150px;
+        top: 311px;
+        left: 5px;
+    }
+    .circle2 {
+        height: 80px;
+        width: 80px;
+        top: 206px;
+        left: 212px;
+    }
+    .title p {
+        font-size: 10px;
+        line-height: 20px;
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+    .col2 {
+        left: 330px;
+    }
     .name a{
         
         font-size: 20px;
@@ -420,42 +446,7 @@ footer{
     .front-img{
         height:55vh;
     }
-    .front-img img {
-       padding:4rem;
-       top: 50px;
-    }
-    .circle1 {
-        height: 150px;
-        width: 150px;
-        top: 260px;
-        left: 15px;
-    }
-    .circle2{
-        height: 90px;
-        width: 90px;
-        top: 215px;
-        left: 200px;
-    }
-    .cross{
-        top: 180px;
-        left: 55px;
-        font-size: 1.5rem;
-    }
-    .arrow1{
-        width: 180px;
-        height:2px;
-       top: 235px;
-       left: 80px;
-       border-top: 5PX solid black;
-    }
-    .arrow2{
-        width:240px;
-        height: 1px;
-        top: 260px;
-       left: 50px;
-       border-top: 3PX solid black;
-       
-    }
+    
     
     .title h1{
         font-size: 30px;
@@ -482,15 +473,60 @@ footer{
         left: 100px;
         top: -15px;
     }
-    .col2{
-        left: unset;
-    }
+    
     .col2 img{
         height: 100px;
     }
     .col{
         left: 0px;
               font-size: 12px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .front-img img {
+        padding: 1.5rem;
+        top: 74px;
+    }
+    .cross {
+        top: 182px;
+        left: 53px;
+        font-size: 1.5rem;
+    }
+    .arrow1 {
+        width: 180px;
+        height: 2px;
+        top: 235px;
+        left: 48px;
+        border-top: 5PX solid black;
+    }
+    .arrow2 {
+        width: 216px;
+        height: 1px;
+        top: 239px;
+        left: 43px;
+        border-top: 3PX solid black;
+    }
+    .circle1 {
+        height: 100px;
+        width: 100px;
+        top: 319px;
+        left: 5px;
+    }
+    .circle2 {
+        height: 60px;
+        width: 60px;
+        top: 204px;
+        left: 184px;
+    }
+    .col2 img {
+        height: 89px;
+    }
+    .col2 {
+        left: 291px;
+    }
+    .title h1 {
+        font-size: 28px;
+        letter-spacing: 5px;
     }
 }
 
