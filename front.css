@@ -344,7 +344,7 @@ footer{
 @media only screen and (max-width:786px) {
     .front-img > div {
         position: relative;
-        height: 680px!important;
+        height: 680px;
     }
     .front-img img {
         left: 46%;
@@ -392,51 +392,55 @@ footer{
     }
     
     .col2 {
-        left: 600px!important;
+        left: 600px;
     }
 }
 /*for mobile*/
 @media only screen and (max-width:425px) {
+    .front-img > div {
+        position: relative;
+        height: 491px;
+    }
     .front-img img {
-        padding: 2rem;
-        top: 50px;
+        left: 46%;
+        max-width: 305px;
     }
     .cross {
         top: 182px;
-        left: 67px;
+        left: 90px;
         font-size: 1.5rem;
     }
     .arrow1 {
         width: 180px;
         height: 2px;
-        top: 235px;
-        left: 80px;
+        top: 210px;
+        left: 144px;
         border-top: 5PX solid black;
     }
     .arrow2 {
-        width: 216px;
+        width: 195px;
         height: 1px;
-        top: 239px;
-        left: 86px;
+        top: 205px;
+        left: 168px;
         border-top: 3PX solid black;
     }
     .circle1 {
         height: 150px;
         width: 150px;
-        top: 311px;
-        left: 5px;
+        top: 312px;
+        left: 31px;
     }
     .circle2 {
         height: 80px;
         width: 80px;
-        top: 210px;
-        left: 213px;
+        top: 207px;
+        left: 255px;
     }
     .title p {
         font-size: 10px;
         line-height: 20px;
         padding: 2rem 0rem;
-        width: 100%;
+        width: 80%;
     }
     .col2 {
         left: 330px;
@@ -459,8 +463,8 @@ footer{
             margin: 0;
     }
     
-    .front-img{
-        height:55vh;
+    .front-img {
+        height: auto;
     }
     
     
@@ -504,35 +508,35 @@ footer{
         top: 74px;
     }
     .cross {
-        top: 182px;
-        left: 53px;
+        top: 194px;
+        left: 69px;
         font-size: 1.5rem;
     }
     .arrow1 {
         width: 180px;
         height: 2px;
         top: 235px;
-        left: 48px;
+        left: 101px;
         border-top: 5PX solid black;
     }
     .arrow2 {
         width: 206px;
         height: 1px;
         top: 239px;
-        left: 56px;
+        left: 112px;
         border-top: 3PX solid black;
     }
     .circle1 {
-        height: 130px;
-        width: 130px;
-        top: 304px;
-        left: 5px;
+        height: 150px;
+        width: 150px;
+        top: 315px;
+        left: 9px;
     }
     .circle2 {
-        height: 75px;
-        width: 75px;
-        top: 204px;
-        left: 182px;
+        height: 85px;
+        width: 85px;
+        top: 215px;
+        left: 228px;
     }
     .col2 img {
         height: 89px;
