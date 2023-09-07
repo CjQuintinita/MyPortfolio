@@ -221,7 +221,46 @@ footer{
     
 }
 @media only screen and (max-width:1440px) {
+    .cross{
+        top: 340px;
+        left: 110px;
+    }
+    .circle1 {
+        height: 300px;
+        width: 300px;
+        top:520px;
+        left: 10px;
     
+    }
+    .circle2{
+        height: 180px;
+        width: 180px;
+        top: 360px;
+        left: 400px;
+    
+    }
+    .arrow1{
+        width: 200px;
+        height:10px;
+       top:350px;
+       left: 290px;
+      
+    }
+    .arrow2{
+        width:400px;
+        height: 1px;
+        top: 400px;
+       left:190px;
+       
+    }
+    .col2{
+        position: absolute;
+        left: 600px;
+        bottom:-5px;
+    }
+    .col2 img{
+        height: 170px;
+    }
 }
 
 @media only screen and (max-width:1024px) {
