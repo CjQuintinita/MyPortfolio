@@ -402,7 +402,7 @@ footer{
         height: 491px;
     }
     .front-img img {
-        left: 46%;
+        left: 43%;
         max-width: 305px;
     }
     .cross {
@@ -424,17 +424,17 @@ footer{
         left: 168px;
         border-top: 3PX solid black;
     }
-    .circle1 {
-        height: 150px;
-        width: 150px;
-        top: 312px;
-        left: 31px;
-    }
     .circle2 {
         height: 80px;
         width: 80px;
-        top: 207px;
-        left: 255px;
+        top: 209px;
+        left: 251px;
+    }
+    .circle1 {
+        height: 150px;
+        width: 150px;
+        left: 12px;
+        top: 325px;
     }
     .title p {
         font-size: 10px;
